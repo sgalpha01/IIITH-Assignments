@@ -6,10 +6,10 @@ Q1. Given a DNA sequence in the forward strand, find
     (ii) the RNA sequence synthesised
     (iii)  the amino acid synthesised
 
-`Input`:
+`Input:`
 
 ```console
-echo gtttcattataccagtttagatctatcgacagggcgttgagtgtgtgcttactcacggct \
+❯ echo gtttcattataccagtttagatctatcgacagggcgttgagtgtgtgcttactcacggct \
 ggcatgtaggtaacagtagtggggaagcgtaacatctgaggcctgactcacatatagagt \
 gtcgaccaaggggtgaagcatcatacgccatacaggcccctagcgaaacgacctagtcta \
 aagacacacgagaatgaaacccgtggacttggttacagcgtaataatctggtcagagctg \
@@ -66,7 +66,7 @@ Q2. Write a program to generate a restriction map for Wuhan isolate-1 genome (Ac
 `I/O:`
 
 ```console
-python q2.py
+❯ python q2.py
 Do you want to search using accession ID? (y/n): y
 Enter Accession ID: NC_045512
 Sequence retrieved successfully!
