@@ -66,6 +66,7 @@ Q2. Write a program to generate a restriction map for Wuhan isolate-1 genome (Ac
 `I/O:`
 
 ```console
+python q2.py
 Do you want to search using accession ID? (y/n): y
 Enter Accession ID: NC_045512
 Sequence retrieved successfully!
@@ -84,3 +85,23 @@ We can confirm the output using this [link](https://tools.neb.com/REBsites/rsdis
 
 It can also be confirmed from http://www.restrictionmapper.org.
 
+Q3. Write a program to identify restriction recognition sites in a given DNA sequence.
+
+The solution to this program is based on the following assumption:
+
+- Restriction sites are palindromic subsequences.
+- The majority of the restrictions sites are of length 4, 5, and 6.
+
+This script asks for the length of the site as spaced separated integers. You can enter `6` as input.
+
+`Example:`
+
+```console
+❯ python q3.py
+Enter DNA sequence: gctcgtGAATTCggttccggttGAATTCgcacGGATCCgaccGGATCCgt
+Enter Lengths of Restriction Sites: 6
+The following indices may be restriction sites:
+[6, 22, 32, 42]
+```
+
+In this example, 4 sites (in capital) were inserted which was successfully detected by the script.
