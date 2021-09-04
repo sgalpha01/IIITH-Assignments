@@ -60,3 +60,27 @@ Amino acids that can be synthesised from frame 3 are:
 2: MSKQVIPAKNN
 3: MVP
 ```
+
+Q2. Write a program to generate a restriction map for Wuhan isolate-1 genome (Acc. Id.: NC_045512) using EcoRI as RE compare your results with REBsites.
+
+`I/O:`
+
+```console
+Do you want to search using accession ID? (y/n): y
+Enter Accession ID: NC_045512
+Sequence retrieved successfully!
+Enter the Sequence of Restriction Enzyme: GAATTC
+Site Length: 6
+Frequency: 9
+Cut Positions:
+[1161, 11734, 17280, 17728, 20278, 22870, 26439, 28551, 29620]
+Fragment Length:
+[283, 448, 1069, 1161, 2112, 2550, 2592, 3569, 5546, 10573]
+```
+
+We can confirm the output using this [link](https://tools.neb.com/REBsites/rsdisp.php?prid=gRxd3H6Hm46-NC_045512&page=1&gelset=agarose&gelid=gel_07_1).
+
+![Image](https://tools.neb.com/REBsites/TMP/gRxd3H6Hm46-NC_045512.rsdisp.png?c=6133ac86a3b08)
+
+It can also be confirmed from http://www.restrictionmapper.org.
+
